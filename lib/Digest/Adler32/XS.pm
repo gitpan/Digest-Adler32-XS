@@ -3,7 +3,7 @@ package Digest::Adler32::XS;
 use warnings;
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use base qw(Digest::base DynaLoader);
 
@@ -50,7 +50,7 @@ __END__
 
 =head1 NAME
 
-Digest::Adler32::XS - generate Adler32 efficiently
+Digest::Adler32::XS - Generate Adler32 digests efficiently
 
 =head1 SYNOPSIS
 
