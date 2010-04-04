@@ -1,0 +1,8 @@
+0.02 - 4th April 2010
+
+- Changed "use parent" to "use base" for compatibility with older Perls
+- Added change log
+
+0.01 - 2nd April 2010
+
+- Initial release

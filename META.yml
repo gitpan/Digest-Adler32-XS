@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Digest-Adler32-XS
-version:            0.01
+version:            0.02
 abstract:           ~
 author:
     - Stuart Watt <swatt@infobal.com>

@@ -3,9 +3,9 @@ package Digest::Adler32::XS;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
-use parent qw(Digest::base DynaLoader);
+use base qw(Digest::base DynaLoader);
 
 bootstrap Digest::Adler32::XS;
 

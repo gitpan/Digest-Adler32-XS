@@ -24,7 +24,6 @@ sub test_adler32 {
     return $adler->digest();
 }
 
-
 my $at0 = [gettimeofday];
 my $aresult = test_adler32(Digest::Adler32->new());
 my $atd = tv_interval ($at0, [gettimeofday]);
